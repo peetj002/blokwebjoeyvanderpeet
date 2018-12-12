@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eurostar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/logoeurostar.svg" alt="Logo eurostar"></nav>
+
+        <div id="bannerfoto">
+            <h1>Welkom op de verhalen website</h1><br>
+            <a href="" id="randomverhaal">Verras me</a>
+        </div>
+    </header>
+<br><br>
+    <a href="" id="filteren">Filteren en sorteren</a>
+
+    <section class="filtersorteer" class="hidden">
+        <header>
+            <button id="kruisje"><img src="images/symbols/kruisje.svg" alt=""></button>
+            <h2>Filter en sorteer</h2>
+            <button id="herstel">Herstel</button>
+        </header>
+        <ul>
+            <li><a href="">Sorteren</a><img src="images/symbols/pijlvooruit.svg" alt=""></li>
+            <li><a href="">Genre</a><img src="images/symbols/pijlvooruit.svg" alt=""></li>
+            <li><a href="">Emotie</a><img src="images/symbols/pijlvooruit.svg" alt=""></li>
+            <li><a href="">Taalgebruikfilter</a><img src="images/symbols/pijlvooruit.svg" alt=""></li>
+        </ul>
+        <div class="borderbutton">
+        <button id="toonresultaten">Toon 8 resultaten</button>
+        </div>
+    </section>
+
+    <section id="filtersort">
+
+        <form action="example.js" class="hidden">
+            <h2>Sorteren</h2>
+            <input type="radio" name="sorteren" value="az" checked="checked"><span></span><label for="az">A-Z</label><br>
+            <input type="radio" name="sorteren" value="za"><span></span><label for="za">Z-A</label><br>
+            <input type="radio" name="sorteren" value="199"><span></span><label for="199">1-99</label><br>
+            <input type="radio" name="sorteren" value="991"><span></span><label for="991">99-1</label><br>
+            <input type="radio" name="sorteren" value="Hoogste beoordeling"><span></span><label for="Hoogstebeoordeling">Hoogste beoordeling</label><br>
+            <input type="radio" name="sorteren" value="Meest bekeken"><span></span><label for="Meestbekeken">Meest bekeken</label><br>
+
+            <h2>Genre</h2>
+            <input type="checkbox" name="genre" value="Spannend"><span></span><label for="Spannend">Spannend</label><br>
+            <input type="checkbox" name="genre" value="Roman"><span></span><label for="Roman">Roman</label><br>
+            <input type="checkbox" name="genre" value="Humor"><span></span><label for="Humor">Humor</label><br>
+            <input type="checkbox" name="genre" value="Horror"><span></span><label for="Horror">Horror</label><br>
+            <input type="checkbox" name="genre" value="Dieren"><span></span><label for="Dieren">Dieren</label><br>
+            <input type="checkbox" name="genre" checked="checked" value="Fantasy"><span></span><label for="Fantasy">Fantasy</label><br>
+            <input type="checkbox" name="genre" value="Psychologisch"><span></span><label for="Psychologisch">Psychologisch</label><br>
+
+            <h2>Emotie</h2>
+            <input type="checkbox" name="emotie" value="Agressief"><span></span><label for="Agressief">Agressief</label><br>
+            <input type="checkbox" name="emotie" value="Verliefd"><span></span><label for="Verliefd">Verliefd</label><br>
+            <input type="checkbox" name="emotie" value="Positief"><span></span><label for="Positief">Positief</label><br>
+            <input type="checkbox" name="emotie" value="Negatief"><span></span><label for="Negatief">Negatief</label><br>
+            <input type="checkbox" name="emotie" value="Blij"><span></span><label for="Blij">Blij</label><br>
+            <input type="checkbox" name="emotie" value="Boos"><span></span><label for="Boos">Boos</label><br>
+            <input type="checkbox" name="emotie" value="Verdrietig"><span></span><label for="Verdrietig">Verdrietig</label><br>
+            <input type="checkbox" name="emotie" value="Wantrouwend"><span></span><label for="Wantrouwend">Wantrouwend</label><br>
+            <input type="checkbox" name="emotie" value="Angstig"><span></span><label for="Angstig">Angstig</label><br>
+
+            <h2>Taalgebruikfilter</h2>
+            <input type="radio" name="taalgebruikfilter" value="Aan"><span></span><label for="Aan">Aan</label><br>
+            <input type="radio" name="taalgebruikfilter" value="Uit"><span></span><label for="Uit">Uit</label><br>
+            <p>Als het taalgebruikfilter aan staat, wordt verhalen met veel scheldwoorden niet getoond.</p>
+
+            <a href="">Toon 99 resultaten</a>
+        </form>
+
+
+    </section>
+    <main>
+        <article>
+
+            <img src="images/alzheimerfoto.jpg" alt="Alzheimer" class="preview">
+            <h3>Alzheimer</h3>
+            <img src="images/sterretjes.jpg" alt="Beoordeling sterren" class="ster">
+
+            <p>Ik stap uit, euh... Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente. Wit met blauw. Kom. Lijn 12. Of was het 21? Ik weet het niet.</p>
+            <a href="" class="leesmeer">Lees meer</a>
+
+        </article>
+
+        <article>
+            <img src="images/gefrustreerd.png" alt="Gefrustreerd" class="preview"><br>
+            <h3>Gefrustreerd</h3>
+            <img src="images/sterretjes.jpg" alt="Beoordeling sterren" class="ster">
+            <p>Ik stap uit die godverdomde stinkbus. De mensen krioelen als mieren over het stationsplein. Ik wil ze vertrappen onder m’n schoenen. Vermorzelen. Verbrijzelen.</p>
+            <a href="" class="leesmeer">Lees meer</a>
+
+        </article>
+
+    </main>
+    <footer>&copy; 2018 Eurostar International Ltd. Alle rechten voorbehouden</footer>
+
+</body>
+
+</html>
